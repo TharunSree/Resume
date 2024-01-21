@@ -4272,10 +4272,10 @@ readers do not read off random characters that represent icons */
 .fa-won-sign:before {
   content: "\f159"; }
 
-.fa-games:before {
+.fa-wordpress:before {
   content: "\f19a"; }
 
-.fa-games-simple:before {
+.fa-wordpress-simple:before {
   content: "\f411"; }
 
 .fa-wpbeginner:before {
