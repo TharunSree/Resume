@@ -605,7 +605,7 @@ var Jarallax = function () {
             if (self.image.src === null) {
                 self.image.src = self.css(self.$item, 'background-image').replace(/^url\(['"]?/g, '').replace(/['"]?\)$/g, '');
             }
-            return !(!self.image.src || self.image.src === 'none');
+            return !(!self.image.src || self.image.src === '');
         }
     }, {
         key: 'canInitParallax',
@@ -623,7 +623,7 @@ var Jarallax = function () {
                 width: '100%',
                 height: '100%',
                 overflow: 'hidden',
-                pointerEvents: 'none'
+                pointerEvents: ''
             };
             var imageStyles = {};
 
@@ -677,7 +677,7 @@ var Jarallax = function () {
                     'object-position': self.options.imgPosition,
                     // support for plugin https://github.com/bfred-it/object-fit-images
                     'font-family': 'object-fit: ' + self.options.imgSize + '; object-position: ' + self.options.imgPosition + ';',
-                    'max-width': 'none'
+                    'max-width': ''
                 }, containerStyles, imageStyles);
 
                 // use div with background image
@@ -704,7 +704,7 @@ var Jarallax = function () {
                 var $itemParents = self.$item;
                 while ($itemParents !== null && $itemParents !== document && parentWithTransform === 0) {
                     var parentTransform = self.css($itemParents, '-webkit-transform') || self.css($itemParents, '-moz-transform') || self.css($itemParents, 'transform');
-                    if (parentTransform && parentTransform !== 'none') {
+                    if (parentTransform && parentTransform !== '') {
                         parentWithTransform = 1;
                         self.image.position = 'absolute';
                     }
@@ -734,9 +734,9 @@ var Jarallax = function () {
             }
 
             // remove default user background
-            if (self.css(self.$item, 'background-image') !== 'none') {
+            if (self.css(self.$item, 'background-image') !== '') {
                 self.css(self.$item, {
-                    'background-image': 'none'
+                    'background-image': ''
                 });
             }
 

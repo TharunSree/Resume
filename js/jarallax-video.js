@@ -676,7 +676,7 @@ var VideoWorker = function () {
                 var hiddenDiv = void 0;
                 if (!self.$video) {
                     hiddenDiv = document.createElement('div');
-                    hiddenDiv.style.display = 'none';
+                    hiddenDiv.style.display = '';
                 }
 
                 // Youtube
@@ -1140,8 +1140,8 @@ function jarallaxVideo() {
                     bottom: '0px',
                     width: '100%',
                     height: '100%',
-                    maxWidth: 'none',
-                    maxHeight: 'none',
+                    maxWidth: '',
+                    maxHeight: '',
                     margin: 0,
                     zIndex: -1
                 });
@@ -1281,7 +1281,7 @@ function jarallaxVideo() {
 
                     // hide image
                     if (self.image.$default_item) {
-                        self.image.$default_item.style.display = 'none';
+                        self.image.$default_item.style.display = '';
                     }
                 });
 

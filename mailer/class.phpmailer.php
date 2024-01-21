@@ -439,7 +439,7 @@ class PHPMailer
 
     /**
      * What to put in the X-Mailer header.
-     * Options: An empty string for PHPMailer default, whitespace for none, or a string to use
+     * Options: An empty string for PHPMailer default, whitespace for , or a string to use
      * @type string
      */
     public $XMailer = '';
@@ -2470,7 +2470,7 @@ class PHPMailer
 
     /**
      * Encode a header string optimally.
-     * Picks shortest of Q, B, quoted-printable or none.
+     * Picks shortest of Q, B, quoted-printable or .
      * @access public
      * @param string $str
      * @param string $position
