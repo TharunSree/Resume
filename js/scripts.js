@@ -1,5 +1,5 @@
 /**
-*	Cvio - Resume/CV Template (HTML)
+*	Portfolio/Resume (HTML)
 *	Author: beshleyua
 *	Author URL: http://themeforest.net/user/beshleyua
 *	Copyright © Cvio by beshleyua. All Rights Reserved.
