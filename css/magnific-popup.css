@@ -19,7 +19,7 @@
   height: 100%;
   z-index: 1043;
   position: fixed;
-  outline:  !important;
+  outline: none !important;
   -webkit-backface-visibility: hidden; 
 }
 
@@ -44,7 +44,7 @@
 }
 
 .mfp-align-top .mfp-container:before {
-  display: ; 
+  display: none; 
 }
 
 .mfp-content {
@@ -83,17 +83,17 @@
 }
 
 .mfp-close, .mfp-arrow, .mfp-preloader, .mfp-counter {
-  -webkit-user-select: ;
-  -moz-user-select: ;
-  -webkit-user-select: ;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
 }
 
 .mfp-loading.mfp-figure {
-  display: ; 
+  display: none; 
 }
 
 .mfp-hide {
-  display:  !important; 
+  display: none !important; 
 }
 
 .mfp-preloader {
@@ -117,11 +117,11 @@
 }
 
 .mfp-s-ready .mfp-preloader {
-  display: ; 
+  display: none; 
 }
 
 .mfp-s-error .mfp-content {
-  display: ; 
+  display: none; 
 }
 
 button.mfp-close, button.mfp-arrow {
@@ -129,13 +129,13 @@ button.mfp-close, button.mfp-arrow {
   cursor: pointer;
   background: transparent;
   border: 0;
-  -webkit-appearance: ;
+  -webkit-appearance: none;
   display: block;
-  outline: ;
+  outline: none;
   padding: 0;
   z-index: 1046;
-  -webkit-box-shadow: ;
-  box-shadow: ; 
+  -webkit-box-shadow: none;
+  box-shadow: none; 
 }
 
 button::-moz-focus-inner {
@@ -150,7 +150,7 @@ button::-moz-focus-inner {
   position: absolute;
   right: 0;
   top: 0;
-  text-decoration: ;
+  text-decoration: none;
   text-align: center;
   opacity: 0.65;
   filter: alpha(opacity=65);

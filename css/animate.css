@@ -431,8 +431,8 @@ Copyright (c) 2015 Daniel Eden
 
 @-webkit-keyframes wobble {
   from {
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 
   15% {
@@ -461,15 +461,15 @@ Copyright (c) 2015 Daniel Eden
   }
 
   100% {
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
 @keyframes wobble {
   from {
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 
   15% {
@@ -498,8 +498,8 @@ Copyright (c) 2015 Daniel Eden
   }
 
   100% {
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -510,8 +510,8 @@ Copyright (c) 2015 Daniel Eden
 
 @-webkit-keyframes jello {
   from, 11.1%, 100% {
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 
   22.2% {
@@ -552,8 +552,8 @@ Copyright (c) 2015 Daniel Eden
 
 @keyframes jello {
   from, 11.1%, 100% {
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 
   22.2% {
@@ -713,8 +713,8 @@ Copyright (c) 2015 Daniel Eden
   }
 
   100% {
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -747,8 +747,8 @@ Copyright (c) 2015 Daniel Eden
   }
 
   100% {
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -786,8 +786,8 @@ Copyright (c) 2015 Daniel Eden
   }
 
   100% {
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -820,8 +820,8 @@ Copyright (c) 2015 Daniel Eden
   }
 
   100% {
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -859,8 +859,8 @@ Copyright (c) 2015 Daniel Eden
   }
 
   100% {
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -893,8 +893,8 @@ Copyright (c) 2015 Daniel Eden
   }
 
   100% {
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1205,8 +1205,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1219,8 +1219,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1238,8 +1238,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1252,8 +1252,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1271,8 +1271,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1285,8 +1285,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1304,8 +1304,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1318,8 +1318,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1337,8 +1337,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1351,8 +1351,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1370,8 +1370,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1384,8 +1384,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1403,8 +1403,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1417,8 +1417,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1436,8 +1436,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -1450,8 +1450,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -2054,8 +2054,8 @@ Copyright (c) 2015 Daniel Eden
   }
 
   100% {
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
     opacity: 1;
   }
 }
@@ -2080,8 +2080,8 @@ Copyright (c) 2015 Daniel Eden
   }
 
   100% {
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
     opacity: 1;
   }
 }
@@ -2136,8 +2136,8 @@ Copyright (c) 2015 Daniel Eden
   100% {
     -webkit-transform-origin: center;
     transform-origin: center;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
     opacity: 1;
   }
 }
@@ -2154,8 +2154,8 @@ Copyright (c) 2015 Daniel Eden
   100% {
     -webkit-transform-origin: center;
     transform-origin: center;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
     opacity: 1;
   }
 }
@@ -2177,8 +2177,8 @@ Copyright (c) 2015 Daniel Eden
   100% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
     opacity: 1;
   }
 }
@@ -2195,8 +2195,8 @@ Copyright (c) 2015 Daniel Eden
   100% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
     opacity: 1;
   }
 }
@@ -2218,8 +2218,8 @@ Copyright (c) 2015 Daniel Eden
   100% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
     opacity: 1;
   }
 }
@@ -2236,8 +2236,8 @@ Copyright (c) 2015 Daniel Eden
   100% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
     opacity: 1;
   }
 }
@@ -2259,8 +2259,8 @@ Copyright (c) 2015 Daniel Eden
   100% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
     opacity: 1;
   }
 }
@@ -2277,8 +2277,8 @@ Copyright (c) 2015 Daniel Eden
   100% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
     opacity: 1;
   }
 }
@@ -2300,8 +2300,8 @@ Copyright (c) 2015 Daniel Eden
   100% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
     opacity: 1;
   }
 }
@@ -2318,8 +2318,8 @@ Copyright (c) 2015 Daniel Eden
   100% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
     opacity: 1;
   }
 }
@@ -2598,8 +2598,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 
@@ -2612,8 +2612,8 @@ Copyright (c) 2015 Daniel Eden
 
   100% {
     opacity: 1;
-    -webkit-transform: ;
-    transform: ;
+    -webkit-transform: none;
+    transform: none;
   }
 }
 

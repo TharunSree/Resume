@@ -62,7 +62,7 @@
   width: 1.25em; }
 
 .fa-ul {
-  list-style-type: ;
+  list-style-type: none;
   margin-left: 2.5em;
   padding-left: 0; }
   .fa-ul > li {
@@ -160,8 +160,8 @@
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical,
 :root .fa-flip-both {
-  -webkit-filter: ;
-          filter: ; }
+  -webkit-filter: none;
+          filter: none; }
 
 .fa-stack {
   display: inline-block;
@@ -612,7 +612,7 @@ readers do not read off random characters that represent icons */
 .fa-border-all:before {
   content: "\f84c"; }
 
-.fa-border-:before {
+.fa-border-none:before {
   content: "\f850"; }
 
 .fa-border-style:before {
@@ -4272,10 +4272,10 @@ readers do not read off random characters that represent icons */
 .fa-won-sign:before {
   content: "\f159"; }
 
-.fa-games:before {
+.fa-wordpress:before {
   content: "\f19a"; }
 
-.fa-games-simple:before {
+.fa-wordpress-simple:before {
   content: "\f411"; }
 
 .fa-wpbeginner:before {

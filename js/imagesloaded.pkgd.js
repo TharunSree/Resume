@@ -390,7 +390,7 @@ LoadingImage.prototype.check = function() {
     return;
   }
 
-  // If  of the checks above matched, simulate loading on detached element.
+  // If none of the checks above matched, simulate loading on detached element.
   this.proxyImage = new Image();
   this.proxyImage.addEventListener( 'load', this );
   this.proxyImage.addEventListener( 'error', this );

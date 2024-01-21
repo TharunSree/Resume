@@ -1560,7 +1560,7 @@ var IFRAME_NS = 'iframe',
 
 				// IE8 black screen bug fix
 				if(mfp.isIE8) {
-					el.css('display', isShowing ? 'block' : '');
+					el.css('display', isShowing ? 'block' : 'none');
 				}
 			}
 		}
