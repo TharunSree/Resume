@@ -417,7 +417,7 @@ function getSize( elem ) {
   var style = getStyle( elem );
 
   // if hidden, everything is 0
-  if ( style.display == '' ) {
+  if ( style.display == 'none' ) {
     return getZeroSize();
   }
 
@@ -1215,7 +1215,7 @@ proto.stagger = function( delay ) {
 // remove element from DOM
 proto.removeElem = function() {
   this.element.parentNode.removeChild( this.element );
-  // remove display: 
+  // remove display: none
   this.css({ display: '' });
   this.emitEvent( 'remove', [ this ] );
 };
@@ -1236,7 +1236,7 @@ proto.remove = function() {
 
 proto.reveal = function() {
   delete this.isHidden;
-  // remove display: 
+  // remove display: none
   this.css({ display: '' });
 
   var options = this.layout.options;
@@ -1281,7 +1281,7 @@ proto.getHideRevealTransitionEndProperty = function( styleProperty ) {
 proto.hide = function() {
   // set flag
   this.isHidden = true;
-  // remove display: 
+  // remove display: none
   this.css({ display: '' });
 
   var options = this.layout.options;
@@ -1303,7 +1303,7 @@ proto.onHideTransitionEnd = function() {
   // check if still hidden
   // during transition, item may have been un-hidden
   if ( this.isHidden ) {
-    this.css({ display: '' });
+    this.css({ display: 'none' });
     this.emitEvent('hide');
   }
 };

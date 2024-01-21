@@ -119,7 +119,7 @@
 
 .header .logo a {
 	color: rgba(255, 255, 255, 0.5);
-	text-decoration: ;
+	text-decoration: none;
 	display: block;
 }
 
@@ -138,7 +138,7 @@
 .header .top-menu ul {
 	margin: 0;
 	padding: 0;
-	list-style: ;
+	list-style: none;
 }
 
 .header .top-menu ul li {
@@ -157,7 +157,7 @@
 	color: #FFF;
 	font-weight: 600;
 	opacity: 0.5;
-	text-decoration: ;
+	text-decoration: none;
 	transition: color 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);
 	-moz-transition: color 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);
 	-webkit-transition: color 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);
@@ -202,7 +202,7 @@
 	background: #1E1E1E;
 	z-index: 50;
 	opacity: 0;
-	pointer-events: ;
+	pointer-events: none;
 	transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-webkit-transition: all 0.3s ease 0s;
@@ -246,7 +246,7 @@
 
 .header .top-menu-nav .sub-menu li:last-child,
 .header .top-menu-nav .children li:last-child {
-	border-bottom: ;
+	border-bottom: none;
 }
 
 .header .top-menu-nav .sub-menu li a,
@@ -405,7 +405,7 @@
 		margin-top: 0;
 		margin-left: 0;
 		margin-right: 0;
-		float: ;
+		float: none;
 		width: auto;
 		height: 0px;
 		text-align: center;
@@ -441,7 +441,7 @@
 		margin: 20px 0;
 		width: auto;
 		text-align: center;
-		pointer-events: ;
+		pointer-events: none;
 		display: block;
 		opacity: 0;
 		visibility: hidden;
@@ -466,10 +466,10 @@
 		top: 0;
 		margin: 0 -20px;
 		background: #f4f4f4;
-		box-shadow: ;
-		-moz-box-shadow: ;
-		-webkit-box-shadow: ;
-		-khtml-box-shadow: ;
+		box-shadow: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		-khtml-box-shadow: none;
 	}
 
 
@@ -712,7 +712,7 @@
 	font-size: 44px;
 	font-family: "Roboto";
 	font-weight: 500;
-	text-transform: ;
+	text-transform: none;
 	letter-spacing: 0em;
 }
 
@@ -838,10 +838,10 @@
 	width: 20px;
 	height: 20px;
 	margin-top: -10px;
-	background: ;
+	background: none;
 	font-size: 22px;
 	color: #FFF;
-	text-decoration: ;
+	text-decoration: none;
 	transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-webkit-transition: all 0.3s ease 0s;
@@ -871,7 +871,7 @@
 .section.started.section-title .started-content .typed-bread a,
 .section.started.layout-creative .started-content .typed-bread a {
 	color: #FFF;
-	text-decoration: ;
+	text-decoration: none;
 	font-weight: 500;
 	opacity: 1;
 }
@@ -880,7 +880,7 @@
 .section.started .started-content .typed-cursor,
 .section.started.layout-creative .mouse_btn,
 .section.started.layout-post-creative .mouse_btn {
-	display:  !important;
+	display: none !important;
 }
 
 
@@ -978,7 +978,7 @@
 
 
 	.section.started .started-content .h-title br {
-		display: ;
+		display: none;
 	}
 
 
@@ -1170,8 +1170,8 @@
 		top: 0;
 		width: auto;
 		height: 100%;
-		-webkit-clip-path: ;
-		clip-path: ;
+		-webkit-clip-path: none;
+		clip-path: none;
 	}
 
 
@@ -1188,7 +1188,7 @@
 
 	.section.started.personal .started-content .typed-subtitle,
 	.section.started.personal .started-content .typed-bread {
-		display: ;
+		display: none;
 	}
 
 
@@ -1242,7 +1242,7 @@
 }
 
 .info-list ul {
-	list-style: ;
+	list-style: none;
 	margin: 0;
 	padding: 0;
 }
@@ -1287,7 +1287,7 @@
 @media (max-width: 720px) {
 	.section.about .image {
 		margin: 0 auto 20px auto;
-		float: ;
+		float: none;
 		width: 100px;
 		text-align: center;
 	}
@@ -1384,7 +1384,7 @@
 .skills ul {
 	margin: -35px 0 0 0;
 	padding: 0;
-	list-style: ;
+	list-style: none;
 	font-size: 0;
 }
 
@@ -1394,7 +1394,7 @@
 }
 
 .skills ul li:after {
-	display: ;
+	display: none;
 }
 
 .skills ul li:last-child {
@@ -1476,7 +1476,7 @@
 }
 
 .skills.list ul li .progress {
-	display: ;
+	display: none;
 }
 
 .skills.dotted ul {
@@ -1601,7 +1601,7 @@
 }
 
 .skills.circles ul li .progress .percentage {
-	display: ;
+	display: none;
 }
 
 .skills.circles ul li .progress .slice {
@@ -2718,7 +2718,7 @@
 }
 
 .clients-item a {
-	text-decoration: ;
+	text-decoration: none;
 }
 
 .clients-item img {
@@ -2834,7 +2834,7 @@
 }
 
 .section.works .filters input {
-	display: ;
+	display: none;
 }
 
 .section.works .filters .btn-group {
@@ -3008,7 +3008,7 @@
 }
 
 .single-post-text .details-list li:before {
-	display: ;
+	display: none;
 }
 
 .single-post-text .details-list li strong {
@@ -3086,7 +3086,7 @@
 	.box-items .box-item {
 		padding-left: 0;
 		padding-right: 0;
-		float: ;
+		float: none;
 		width: 100%;
 	}
 
@@ -3099,7 +3099,7 @@
 
 /* - Contacts */
 .section.contacts .alert-success {
-	display: ;
+	display: none;
 }
 
 .section.contacts .alert-success p {
@@ -3194,7 +3194,7 @@
 .pricing-item .feature-list ul {
 	margin: 0;
 	padding: 0;
-	list-style: ;
+	list-style: none;
 }
 
 .pricing-item .feature-list ul li {
@@ -3203,7 +3203,7 @@
 
 .pricing-item .feature-list ul li:last-child {
 	margin-bottom: 0;
-	border-bottom: ;
+	border-bottom: none;
 }
 
 .pricing-item .feature-list ul li.disable {
@@ -3352,10 +3352,10 @@
 	right: auto;
 	width: 20px;
 	height: 20px;
-	background: ;
+	background: none;
 	font-size: 22px;
 	color: #FFF;
-	text-decoration: ;
+	text-decoration: none;
 	transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-webkit-transition: all 0.3s ease 0s;
@@ -3491,7 +3491,7 @@ iframe, object {
 
 
 .single-post-text ul, .comment-text ul {
-	list-style: ;
+	list-style: none;
 }
 
 
@@ -3539,7 +3539,7 @@ iframe, object {
 
 
 .wp-block-gallery .blocks-gallery-image:before, .wp-block-gallery .blocks-gallery-item:before {
-	display: ;
+	display: none;
 }
 
 
@@ -3635,7 +3635,7 @@ iframe, object {
 .post-comments .comments, .post-comments .children {
 	margin: 0;
 	padding: 0;
-	list-style: ;
+	list-style: none;
 }
 
 
@@ -3647,7 +3647,7 @@ iframe, object {
 
 .post-comments .post-comment:first-child {
 	padding-top: 0;
-	border-top: ;
+	border-top: none;
 }
 
 
@@ -3691,7 +3691,7 @@ iframe, object {
 
 
 .post-comment.pingback .image {
-	display: ;
+	display: none;
 }
 
 
@@ -3760,14 +3760,14 @@ iframe, object {
 
 .post-comments ul.children {
 	padding: 20px 20px 0 100px;
-	border-top: ;
+	border-top: none;
 	background: #f6f6f6;
 }
 
 
 .post-comments ul.children ul.children {
 	padding: 20px 0 0 40px;
-	border-top: ;
+	border-top: none;
 	background: #f6f6f6;
 }
 
@@ -4102,12 +4102,12 @@ iframe, object {
 /* section footer tablet */
 @media (max-width: 1199px) {
 	.footer .copy {
-		display: ;
+		display: none;
 	}
 
 
 	.footer .follow-label {
-		display: ;
+		display: none;
 	}
 
 
@@ -4136,7 +4136,7 @@ iframe, object {
 		left: 0;
 		top: 0;
 		bottom: auto;
-		float: ;
+		float: none;
 		width: auto;
 		text-align: center;
 	}
@@ -4160,7 +4160,7 @@ iframe, object {
 
 
 	.home .footer .copy {
-		display: ;
+		display: none;
 	}
 
 
@@ -4212,7 +4212,7 @@ iframe, object {
 
 
 .content-sidebar .widget tfoot {
-	display: ;
+	display: none;
 }
 
 
@@ -4235,7 +4235,7 @@ iframe, object {
 
 
 .content-sidebar .widget ul {
-	list-style: ;
+	list-style: none;
 	margin: 0;
 	padding: 0;
 }
@@ -4271,7 +4271,7 @@ iframe, object {
 
 .content-sidebar .widget ul li li {
 	padding-bottom: 0;
-	border-bottom: ;
+	border-bottom: none;
 }
 
 
@@ -4339,7 +4339,7 @@ iframe, object {
 
 
 .content-sidebar span.screen-reader-text {
-	display: ;
+	display: none;
 }
 
 
@@ -4350,10 +4350,10 @@ iframe, object {
 	width: 100%;
 	height: 50px;
 	font-weight: 400;
-	box-shadow: ;
-	-moz-box-shadow: ;
-	-webkit-box-shadow: ;
-	-khtml-box-shadow: ;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-khtml-box-shadow: none;
 }
 
 
@@ -4366,7 +4366,7 @@ iframe, object {
 	background: url(assets/images/android-search.png) no-repeat center center;
 	background-size: 18px 18px;
 	font-size: 0;
-	border: ;
+	border: none;
 }
 
 
@@ -4476,7 +4476,7 @@ iframe, object {
 
 
 .content-sidebar .screen-reader-text {
-	display: ;
+	display: none;
 }
 
 
@@ -4565,7 +4565,7 @@ iframe, object {
 
 
 .post-edit-link:hover {
-	text-decoration: ;
+	text-decoration: none;
 }
 
 
@@ -4609,10 +4609,10 @@ iframe, object {
 .popup-box .image img {
 	width: 100%;
 	height: auto;
-	transform:  !important;
-	-webkit-transform:  !important;
-	-moz-transform:  !important;
-	-o-transform:  !important;
+	transform: none !important;
+	-webkit-transform: none !important;
+	-moz-transform: none !important;
+	-o-transform: none !important;
 }
 
 
@@ -4821,7 +4821,7 @@ iframe, object {
 
 
 .grained-off .video-bg-texture {
-	display: ;
+	display: none;
 }
 
 
@@ -4831,7 +4831,7 @@ iframe, object {
 
 
 .disable-default-mask:before {
-	display: ;
+	display: none;
 }
 
 
