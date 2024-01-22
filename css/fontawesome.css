@@ -2914,13 +2914,13 @@ readers do not read off random characters that represent icons */
 .fa-pills:before {
   content: "\f484"; }
 
-.fa-pinterest:before {
+.fa-github:before {
   content: "\f0d2"; }
 
-.fa-pinterest-p:before {
+.fa-github-p:before {
   content: "\f231"; }
 
-.fa-pinterest-square:before {
+.fa-github-square:before {
   content: "\f0d3"; }
 
 .fa-pizza-slice:before {
@@ -7278,13 +7278,13 @@ readers do not read off random characters that represent icons */
 .fa-pills:before {
   content: "\f484"; }
 
-.fa-pinterest:before {
+.fa-github:before {
   content: "\f0d2"; }
 
-.fa-pinterest-p:before {
+.fa-github-p:before {
   content: "\f231"; }
 
-.fa-pinterest-square:before {
+.fa-github-square:before {
   content: "\f0d3"; }
 
 .fa-pizza-slice:before {
